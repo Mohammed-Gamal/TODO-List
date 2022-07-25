@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODO</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Square+Peg&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <button class="go-up"><i class="fas fa-arrow-alt-circle-up"></i></button>
+    <header>
+        <div class="container">TODO List <i class="fas fa-clipboard-list"></i></div>
+    </header>
+    <div class="add-task">
+        <div class="container">
+          <form action="">
+            <input type="text" name="task" id="add-task" placeholder="Description of your task..." required>
+            <div class="controls">
+                <button>Add Task</button>
+                <input type="reset" value="&#xf1f8;" class="fas fa-trash">
+             </div>
+          </form>
+          <button class="clear-all">Clear list</button>
+        </div>
+    </div>
+    <div class="tasks">
+      <div class="container"></div>
+    </div>
+    <div class="tasks-number">
+      <div class="container">
+        <i class="fas fa-calendar-check"></i>
+        <p>Added tasks: </p><span class="count">0</span>
+      </div>
+    </div>
+    <footer>
+      Copyright &copy; 2022. All rights reserved
+    </footer>
+    <script src="js/file.js"></script>
+  </body>
+</html>
